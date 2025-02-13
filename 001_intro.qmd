@@ -1,0 +1,142 @@
+
+## Introducción
+- **Duración sugerida:** 5 minutos  
+- **Objetivo:** Contextualizar la importancia de la clase y establecer el propósito.
+
+### Presentación y objetivos
+- Preséntate (nombre, rol y experiencia).
+- Explica brevemente la relevancia de la recolección de datos en la arquitectura.
+- Resalta los objetivos de la clase:
+  1. Entender conceptos clave: dato, información, conocimiento.
+  2. Reconocer la importancia de los datos en la toma de decisiones.
+  3. Conocer el ciclo de vida de los datos (desde la captura hasta el almacenamiento y uso).
+
+---
+
+## 1. Definiciones clave: dato, información, conocimiento
+- **Duración sugerida:** 10 minutos  
+
+### Dato
+- Es la **representación mínima de un hecho u observación**.  
+- **Puede ser de tipo numérico (temperatura, medidas, costos) o categórico** (respuestas de encuestas, preferencias, clasificación de uso de espacios, etc.).  
+- Ejemplos en arquitectura:
+  - **Medidas de un terreno** (longitud, ancho, altura).  
+  - **Temperatura o humedad** de un espacio interior.  
+  - **Respuestas de una encuesta** sobre percepción del confort térmico o preferencias estéticas.  
+
+
+---
+
+### Información
+- Surge cuando **varios datos se procesan y se contextualizan**.  
+- Ejemplo:
+  - Al **unir las medidas del terreno con la altura permitida** por normativa, obtenemos *información* sobre el potencial volumétrico de la construcción.  
+  - Al **analizar respuestas de una encuesta** de usuarios sobre su experiencia en ciertos espacios, obtenemos *información* sobre patrones de uso y satisfacción.  
+
+
+---
+
+### Conocimiento
+- Es la **comprensión** que se obtiene al **analizar** e **interpretar** la información en un contexto específico.  
+- Ejemplo:
+  - Al **integrar** información de costos de materiales, normativas y comportamiento estructural, se genera *conocimiento* para tomar decisiones de diseño y planificación.  
+  - Al **comprender** las preferencias de los usuarios (extraídas de encuestas) y cruzarlas con la factibilidad técnica, se obtiene *conocimiento* para proponer soluciones arquitectónicas más adecuadas.
+
+
+
+
+**Etapa 1:**  
+- Se realiza una encuesta a 100 usuarios de un edificio de oficinas sobre su **nivel de satisfacción con la iluminación** (dato categórico: satisfecho, neutral, insatisfecho).  
+- Paralelamente, se toman **mediciones de la iluminación en lux** (dato numérico) en diferentes horarios.
+**Etapa 2:**  
+- Se comparan las respuestas de la encuesta con las mediciones de iluminación para ver si **los usuarios insatisfechos** coinciden con **áreas con niveles de lux por debajo de la norma** (p. ej. < 300 lux).  
+- Con esta comparación, se obtiene la *información* de que en **dos áreas específicas** la iluminación es insuficiente y coincide con la mayor tasa de insatisfacción.
+
+**Etapa 3:**  
+- Con la información obtenida, el equipo de diseño concluye que **una redistribución de luminarias** o la **instalación de nuevos dispositivos de iluminación** en esas áreas de poca luz **mejorará significativamente** la satisfacción de los usuarios.  
+- Al integrar además el **costo de la solución** y la **normativa sobre niveles mínimos de iluminación** en espacios de trabajo, se genera *conocimiento* sobre **cuál** es la mejor forma de intervenir el espacio (elección de tecnología LED, distancia entre luminarias, uso de sensores, etc.), logrando así un **diseño más eficiente y ajustado** a las necesidades reales de las personas que usan el edificio.
+
+ 
+
+**Actividad rápida (2 minutos):**  
+Pide a los participantes que mencionen un ejemplo de dato, información y conocimiento en su práctica profesional, destacando no solo datos numéricos, sino también datos categóricos o cualitativos.
+
+---
+
+## 2. Importancia de los datos en la toma de decisiones
+- **Duración sugerida:** 10 minutos  
+
+### Relevancia en Arquitectura
+- **Toma de decisiones basadas en evidencia**:  
+  - Permite diseñar espacios más funcionales y eficientes.  
+  - Evita suposiciones que pueden conducir a errores costosos.  
+- **Optimización de recursos**:  
+  - Uso de datos (numéricos y cualitativos) para calcular costos y tiempos con mayor precisión.  
+  - Planeación urbana y gestión de edificaciones de manera sostenible.
+
+### Ejemplos del grupo de trabajo
+- **Diseño paramétrico**:  
+  - Uso de datos (clima, topografía, orientación, etc.) para generar diseños adaptados al entorno.  
+- **BIM (Building Information Modeling)**:  
+  - Centraliza datos de todas las fases del proyecto.  
+  - Mejora la colaboración y reduce errores en el ciclo de vida de la edificación.
+- **Encuestas de satisfacción de usuarios**:  
+  - Recopilan datos categóricos (ej. “Muy satisfecho”, “Satisfecho”, “Insatisfecho”) que apoyan decisiones de mejora y rediseño.
+
+**Discusión grupal (3 minutos):**  
+Invita a los participantes a compartir alguna situación en la que el uso (o falta de uso) de datos, tanto cuantitativos como cualitativos, haya impactado significativamente el resultado de un proyecto.
+
+---
+
+## 3. Ciclo de vida de los datos
+- **Duración sugerida:** 10 minutos  
+
+### Fases del ciclo de vida
+1. **Captura y recolección**  
+   - **Levantar información en campo** (encuestas, mediciones, fotos, escaneos 3D).  
+   - **Fuentes digitales** (sensores IoT, bases de datos de municipios, formularios en línea).  
+   - Definir si los datos son numéricos, categóricos o cualitativos, y qué instrumentos se usarán.
+2. **Almacenamiento**  
+   - Herramientas y formatos: bases de datos, hojas de cálculo, nubes de almacenamiento.  
+   - Consideraciones de seguridad y respaldo.
+3. **Procesamiento y limpieza**  
+   - Validación y corrección de datos: detección de valores atípicos o inconsistentes.  
+   - Formateo y estandarización para su uso en software de diseño o análisis (incluyendo codificación de respuestas categóricas).
+4. **Análisis**  
+   - Herramientas de estadística, visualización y modelado.  
+   - Generación de información significativa a partir de los datos (ej. segmentación de respuestas de encuestas).
+5. **Distribución y uso**  
+   - Compartir resultados con el equipo de proyecto u otros departamentos.  
+   - Toma de decisiones informadas (definición de lineamientos de diseño, presupuestos, etc.).  
+6. **Archivo o eliminación**  
+   - Decisión sobre conservar datos a largo plazo (para futuros proyectos) o eliminarlos de forma segura.  
+   - Legislación y normas de privacidad (muy importante en datos personales recogidos en encuestas).
+
+### Consejos prácticos para la recolección de datos
+- Definir objetivos claros antes de recolectar datos.  
+- Estandarizar formatos desde el inicio.  
+- Fomentar la cultura de la documentación (todo dato debe registrarse de manera consistente, ya sea numérico o categórico).
+
+**Ejercicio sugerido (3 minutos):**  
+Pide a los participantes que definan qué datos recolectan habitualmente en sus proyectos y en qué fase del ciclo se encuentran más retos, especialmente si tienen encuestas con preguntas abiertas o cerradas.
+
+---
+
+## Recapitulación y cierre
+- **Duración sugerida:** 5 minutos  
+
+### Resumen de ideas principales
+1. **Diferencia entre dato, información y conocimiento** y su utilidad en la práctica arquitectónica.  
+2. **Importancia de la toma de decisiones basadas en datos** (numéricos y categóricos), con ejemplos del entorno profesional.  
+3. **Ciclo de vida de los datos** y buenas prácticas en cada fase.
+
+### Próximos pasos
+- Investigar herramientas que ayuden en el procesamiento y análisis de datos (ej.: hojas de cálculo avanzadas, software de modelado, herramientas de análisis de respuestas de encuestas, etc.).  
+- Crear un protocolo interno para la recolección y almacenamiento de información en proyectos de arquitectura.  
+- Buscar cursos o talleres complementarios que profundicen en el tema de la analítica de datos aplicada a la arquitectura, incluyendo el análisis de datos cualitativos o categóricos.
+
+### Espacio para preguntas (5 minutos)
+- Abrir el micrófono a consultas.
+- Fomentar ejemplos concretos de proyectos de los participantes.
+
+---

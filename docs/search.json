@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Recolección, análisis y visualización de datos",
+    "section": "",
+    "text": "Inserte el temario aquí…",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Recolección, procesamiento y visualización de datos</span>"
+    ]
+  },
+  {
+    "objectID": "001_intro.html",
+    "href": "001_intro.html",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "2.0.1 Presentación y objetivos",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "001_intro.html#definiciones-clave-dato-información-conocimiento",
+    "href": "001_intro.html#definiciones-clave-dato-información-conocimiento",
+    "title": "2  Introducción",
+    "section": "2.1 1. Definiciones clave: dato, información, conocimiento",
+    "text": "2.1 1. Definiciones clave: dato, información, conocimiento\n\nDuración sugerida: 10 minutos\n\n\n2.1.1 Dato\n\nEs la representación mínima de un hecho u observación.\n\nPuede ser de tipo numérico (temperatura, medidas, costos) o categórico (respuestas de encuestas, preferencias, clasificación de uso de espacios, etc.).\n\nEjemplos en arquitectura:\n\nMedidas de un terreno (longitud, ancho, altura).\n\nTemperatura o humedad de un espacio interior.\n\nRespuestas de una encuesta sobre percepción del confort térmico o preferencias estéticas.\n\n\n\n\n\n2.1.2 Información\n\nSurge cuando varios datos se procesan y se contextualizan.\n\nEjemplo:\n\nAl unir las medidas del terreno con la altura permitida por normativa, obtenemos información sobre el potencial volumétrico de la construcción.\n\nAl analizar respuestas de una encuesta de usuarios sobre su experiencia en ciertos espacios, obtenemos información sobre patrones de uso y satisfacción.\n\n\n\n\n\n2.1.3 Conocimiento\n\nEs la comprensión que se obtiene al analizar e interpretar la información en un contexto específico.\n\nEjemplo:\n\nAl integrar información de costos de materiales, normativas y comportamiento estructural, se genera conocimiento para tomar decisiones de diseño y planificación.\n\nAl comprender las preferencias de los usuarios (extraídas de encuestas) y cruzarlas con la factibilidad técnica, se obtiene conocimiento para proponer soluciones arquitectónicas más adecuadas.\n\n\nEtapa 1:\n- Se realiza una encuesta a 100 usuarios de un edificio de oficinas sobre su nivel de satisfacción con la iluminación (dato categórico: satisfecho, neutral, insatisfecho).\n- Paralelamente, se toman mediciones de la iluminación en lux (dato numérico) en diferentes horarios. Etapa 2:\n- Se comparan las respuestas de la encuesta con las mediciones de iluminación para ver si los usuarios insatisfechos coinciden con áreas con niveles de lux por debajo de la norma (p. ej. &lt; 300 lux).\n- Con esta comparación, se obtiene la información de que en dos áreas específicas la iluminación es insuficiente y coincide con la mayor tasa de insatisfacción.\nEtapa 3:\n- Con la información obtenida, el equipo de diseño concluye que una redistribución de luminarias o la instalación de nuevos dispositivos de iluminación en esas áreas de poca luz mejorará significativamente la satisfacción de los usuarios.\n- Al integrar además el costo de la solución y la normativa sobre niveles mínimos de iluminación en espacios de trabajo, se genera conocimiento sobre cuál es la mejor forma de intervenir el espacio (elección de tecnología LED, distancia entre luminarias, uso de sensores, etc.), logrando así un diseño más eficiente y ajustado a las necesidades reales de las personas que usan el edificio.\nActividad rápida (2 minutos):\nPide a los participantes que mencionen un ejemplo de dato, información y conocimiento en su práctica profesional, destacando no solo datos numéricos, sino también datos categóricos o cualitativos.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "001_intro.html#importancia-de-los-datos-en-la-toma-de-decisiones",
+    "href": "001_intro.html#importancia-de-los-datos-en-la-toma-de-decisiones",
+    "title": "2  Introducción",
+    "section": "2.2 2. Importancia de los datos en la toma de decisiones",
+    "text": "2.2 2. Importancia de los datos en la toma de decisiones\n\nDuración sugerida: 10 minutos\n\n\n2.2.1 Relevancia en Arquitectura\n\nToma de decisiones basadas en evidencia:\n\nPermite diseñar espacios más funcionales y eficientes.\n\nEvita suposiciones que pueden conducir a errores costosos.\n\n\nOptimización de recursos:\n\nUso de datos (numéricos y cualitativos) para calcular costos y tiempos con mayor precisión.\n\nPlaneación urbana y gestión de edificaciones de manera sostenible.\n\n\n\n\n2.2.2 Ejemplos del grupo de trabajo\n\nDiseño paramétrico:\n\nUso de datos (clima, topografía, orientación, etc.) para generar diseños adaptados al entorno.\n\n\nBIM (Building Information Modeling):\n\nCentraliza datos de todas las fases del proyecto.\n\nMejora la colaboración y reduce errores en el ciclo de vida de la edificación.\n\nEncuestas de satisfacción de usuarios:\n\nRecopilan datos categóricos (ej. “Muy satisfecho”, “Satisfecho”, “Insatisfecho”) que apoyan decisiones de mejora y rediseño.\n\n\nDiscusión grupal (3 minutos):\nInvita a los participantes a compartir alguna situación en la que el uso (o falta de uso) de datos, tanto cuantitativos como cualitativos, haya impactado significativamente el resultado de un proyecto.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "001_intro.html#ciclo-de-vida-de-los-datos",
+    "href": "001_intro.html#ciclo-de-vida-de-los-datos",
+    "title": "2  Introducción",
+    "section": "2.3 3. Ciclo de vida de los datos",
+    "text": "2.3 3. Ciclo de vida de los datos\n\nDuración sugerida: 10 minutos\n\n\n2.3.1 Fases del ciclo de vida\n\nCaptura y recolección\n\nLevantar información en campo (encuestas, mediciones, fotos, escaneos 3D).\n\nFuentes digitales (sensores IoT, bases de datos de municipios, formularios en línea).\n\nDefinir si los datos son numéricos, categóricos o cualitativos, y qué instrumentos se usarán.\n\nAlmacenamiento\n\nHerramientas y formatos: bases de datos, hojas de cálculo, nubes de almacenamiento.\n\nConsideraciones de seguridad y respaldo.\n\nProcesamiento y limpieza\n\nValidación y corrección de datos: detección de valores atípicos o inconsistentes.\n\nFormateo y estandarización para su uso en software de diseño o análisis (incluyendo codificación de respuestas categóricas).\n\nAnálisis\n\nHerramientas de estadística, visualización y modelado.\n\nGeneración de información significativa a partir de los datos (ej. segmentación de respuestas de encuestas).\n\nDistribución y uso\n\nCompartir resultados con el equipo de proyecto u otros departamentos.\n\nToma de decisiones informadas (definición de lineamientos de diseño, presupuestos, etc.).\n\n\nArchivo o eliminación\n\nDecisión sobre conservar datos a largo plazo (para futuros proyectos) o eliminarlos de forma segura.\n\nLegislación y normas de privacidad (muy importante en datos personales recogidos en encuestas).\n\n\n\n\n2.3.2 Consejos prácticos para la recolección de datos\n\nDefinir objetivos claros antes de recolectar datos.\n\nEstandarizar formatos desde el inicio.\n\nFomentar la cultura de la documentación (todo dato debe registrarse de manera consistente, ya sea numérico o categórico).\n\nEjercicio sugerido (3 minutos):\nPide a los participantes que definan qué datos recolectan habitualmente en sus proyectos y en qué fase del ciclo se encuentran más retos, especialmente si tienen encuestas con preguntas abiertas o cerradas.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "001_intro.html#recapitulación-y-cierre",
+    "href": "001_intro.html#recapitulación-y-cierre",
+    "title": "2  Introducción",
+    "section": "2.4 Recapitulación y cierre",
+    "text": "2.4 Recapitulación y cierre\n\nDuración sugerida: 5 minutos\n\n\n2.4.1 Resumen de ideas principales\n\nDiferencia entre dato, información y conocimiento y su utilidad en la práctica arquitectónica.\n\nImportancia de la toma de decisiones basadas en datos (numéricos y categóricos), con ejemplos del entorno profesional.\n\nCiclo de vida de los datos y buenas prácticas en cada fase.\n\n\n\n2.4.2 Próximos pasos\n\nInvestigar herramientas que ayuden en el procesamiento y análisis de datos (ej.: hojas de cálculo avanzadas, software de modelado, herramientas de análisis de respuestas de encuestas, etc.).\n\nCrear un protocolo interno para la recolección y almacenamiento de información en proyectos de arquitectura.\n\nBuscar cursos o talleres complementarios que profundicen en el tema de la analítica de datos aplicada a la arquitectura, incluyendo el análisis de datos cualitativos o categóricos.\n\n\n\n2.4.3 Espacio para preguntas (5 minutos)\n\nAbrir el micrófono a consultas.\nFomentar ejemplos concretos de proyectos de los participantes.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  }
+]

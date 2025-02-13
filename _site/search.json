@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Recolección, procesamiento y visualización de datos",
+    "section": "",
+    "text": "Inserte el temario aquí…"
+  },
+  {
+    "objectID": "index.html#introducción",
+    "href": "index.html#introducción",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "",
+    "text": "Duración sugerida: 5 minutos\n\nObjetivo: Contextualizar la importancia de la clase y establecer el propósito.\n\n\n\n\nPresentarte a ti mismo (nombre, rol y experiencia).\nExplicar brevemente la relevancia de la recolección de datos en la arquitectura.\nResaltar los objetivos de la clase:\n\nEntender conceptos clave: dato, información, conocimiento.\nReconocer la importancia de los datos en la toma de decisiones.\nConocer el ciclo de vida de los datos (desde la captura hasta el almacenamiento y uso)."
+  },
+  {
+    "objectID": "index.html#definiciones-clave-dato-información-conocimiento",
+    "href": "index.html#definiciones-clave-dato-información-conocimiento",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "1. Definiciones clave: dato, información, conocimiento",
+    "text": "1. Definiciones clave: dato, información, conocimiento\n\nDuración sugerida: 10 minutos\n\n\nDato\n\nEs la representación mínima de un hecho u observación.\n\nEjemplos en arquitectura:\n\nMedidas de un terreno (longitud, ancho, altura).\n\nTemperatura o humedad de un espacio interior.\n\n\n\n\nInformación\n\nSurge cuando varios datos se procesan y se contextualizan.\n\nEjemplo:\n\nAl unir las medidas del terreno con la altura permitida por normativa, se obtiene información sobre el potencial volumétrico de una construcción.\n\n\n\n\nConocimiento\n\nEs la comprensión que se obtiene al analizar e interpretar la información en un contexto específico.\n\nEjemplo:\n\nAl integrar información de costos de materiales, normativas, y comportamiento estructural, se genera conocimiento para tomar decisiones de diseño y planificación.\n\n\nActividad rápida (2 minutos):\nPide a los participantes que mencionen un ejemplo de dato, información y conocimiento en su práctica profesional."
+  },
+  {
+    "objectID": "index.html#importancia-de-los-datos-en-la-toma-de-decisiones",
+    "href": "index.html#importancia-de-los-datos-en-la-toma-de-decisiones",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "2. Importancia de los datos en la toma de decisiones",
+    "text": "2. Importancia de los datos en la toma de decisiones\n\nDuración sugerida: 10 minutos\n\n\nRelevancia en Arquitectura\n\nToma de decisiones basadas en evidencia:\n\nPermite diseñar espacios más funcionales y eficientes.\n\nEvita suposiciones que pueden conducir a errores costosos.\n\n\nOptimización de recursos:\n\nUso de datos para calcular costos y tiempos con mayor precisión.\n\nPlaneación urbana y gestión de edificaciones de manera sostenible.\n\n\n\n\nEjemplos del grupo de trabajo\n\nDiseño paramétrico:\n\nUso de datos (clima, topografía, orientación, etc.) para generar diseños adaptados al entorno.\n\n\nBIM (Building Information Modeling):\n\nCentraliza datos de todas las fases del proyecto.\n\nMejora la colaboración y reduce errores en el ciclo de vida de la edificación.\n\n\nDiscusión grupal (3 minutos):\nInvita a los participantes a compartir alguna situación en la que el uso (o falta de uso) de datos haya impactado significativamente el resultado de un proyecto."
+  },
+  {
+    "objectID": "index.html#ciclo-de-vida-de-los-datos",
+    "href": "index.html#ciclo-de-vida-de-los-datos",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "3. Ciclo de vida de los datos",
+    "text": "3. Ciclo de vida de los datos\n\nDuración sugerida: 10 minutos\n\n\nFases del ciclo de vida\n\nCaptura y recolección\n\nLevantamiento de información en campo (encuestas, mediciones, fotos, escaneos 3D).\n\nFuentes digitales (sensores IoT en edificios, bases de datos de municipios).\n\n\nAlmacenamiento\n\nHerramientas y formatos: bases de datos, hojas de cálculo, nubes de almacenamiento.\n\nConsideraciones de seguridad y respaldo.\n\n\nProcesamiento y limpieza\n\nValidación y corrección de datos: detección de valores atípicos o inconsistentes.\n\nFormateo y estandarización para su uso en software de diseño o análisis.\n\n\nAnálisis\n\nHerramientas de estadística, visualización y modelado.\n\nGeneración de información significativa a partir de los datos.\n\n\nDistribución y uso\n\nCompartir resultados con el equipo de proyecto u otros departamentos.\n\nToma de decisiones informadas (definición de lineamientos de diseño, presupuestos, etc.).\n\n\nArchivo o eliminación\n\nDecisión sobre conservar datos a largo plazo (para futuros proyectos) o eliminarlos de forma segura.\n\nLegislación y normas de privacidad (importante en algunos tipos de proyectos).\n\n\n\n\nConsejos prácticos para la recolección de datos\n\nDefinir objetivos claros antes de recolectar datos.\n\nEstandarizar formatos desde el inicio.\n\nFomentar la cultura de la documentación (todo dato debe registrarse de manera consistente).\n\nEjercicio sugerido (3 minutos):\nPide a los participantes que definan qué datos recolectan habitualmente en sus proyectos y en qué fase del ciclo se encuentran más retos."
+  },
+  {
+    "objectID": "index.html#recapitulación-y-cierre",
+    "href": "index.html#recapitulación-y-cierre",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "Recapitulación y cierre",
+    "text": "Recapitulación y cierre\n\nDuración sugerida: 5 minutos\n\n\nResumen de ideas principales\n\nDiferencia entre dato, información y conocimiento y su utilidad en la práctica arquitectónica.\n\nImportancia de la toma de decisiones basadas en datos, con ejemplos del entorno profesional.\n\nCiclo de vida de los datos y buenas prácticas en cada fase.\n\n\n\nPróximos pasos\n\nInvestigar herramientas que ayuden en el procesamiento y análisis de datos (ej.: software de modelado, hojas de cálculo avanzadas, análisis de datos en BIM).\n\nCrear un protocolo interno para la recolección y almacenamiento de información en proyectos de arquitectura.\n\nBuscar cursos o talleres complementarios que profundicen en el tema de la analítica de datos aplicada a la arquitectura.\n\n\n\nEspacio para preguntas (5 minutos)\n\nAbrir el micrófono a consultas.\nFomentar ejemplos concretos de proyectos de los participantes.\n\n\n**¡Gracias por su atención!**  \nSi tienen cualquier duda o comentario adicional, pueden contactarme en: [email protected]\n\nDuración total estimada: 45 minutos."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "001_intro.html",
+    "href": "001_intro.html",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "",
+    "text": "Duración sugerida: 5 minutos\n\nObjetivo: Contextualizar la importancia de la clase y establecer el propósito.\n\n\n\n\nPresentarte a ti mismo (nombre, rol y experiencia).\nExplicar brevemente la relevancia de la recolección de datos en la arquitectura.\nResaltar los objetivos de la clase:\n\nEntender conceptos clave: dato, información, conocimiento.\nReconocer la importancia de los datos en la toma de decisiones.\nConocer el ciclo de vida de los datos (desde la captura hasta el almacenamiento y uso)."
+  },
+  {
+    "objectID": "001_intro.html#introducción",
+    "href": "001_intro.html#introducción",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "",
+    "text": "Duración sugerida: 5 minutos\n\nObjetivo: Contextualizar la importancia de la clase y establecer el propósito.\n\n\n\n\nPresentarte a ti mismo (nombre, rol y experiencia).\nExplicar brevemente la relevancia de la recolección de datos en la arquitectura.\nResaltar los objetivos de la clase:\n\nEntender conceptos clave: dato, información, conocimiento.\nReconocer la importancia de los datos en la toma de decisiones.\nConocer el ciclo de vida de los datos (desde la captura hasta el almacenamiento y uso)."
+  },
+  {
+    "objectID": "001_intro.html#definiciones-clave-dato-información-conocimiento",
+    "href": "001_intro.html#definiciones-clave-dato-información-conocimiento",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "1. Definiciones clave: dato, información, conocimiento",
+    "text": "1. Definiciones clave: dato, información, conocimiento\n\nDuración sugerida: 10 minutos\n\n\nDato\n\nEs la representación mínima de un hecho u observación.\n\nEjemplos en arquitectura:\n\nMedidas de un terreno (longitud, ancho, altura).\n\nTemperatura o humedad de un espacio interior.\n\n\n\n\nInformación\n\nSurge cuando varios datos se procesan y se contextualizan.\n\nEjemplo:\n\nAl unir las medidas del terreno con la altura permitida por normativa, se obtiene información sobre el potencial volumétrico de una construcción.\n\n\n\n\nConocimiento\n\nEs la comprensión que se obtiene al analizar e interpretar la información en un contexto específico.\n\nEjemplo:\n\nAl integrar información de costos de materiales, normativas, y comportamiento estructural, se genera conocimiento para tomar decisiones de diseño y planificación.\n\n\nActividad rápida (2 minutos):\nPide a los participantes que mencionen un ejemplo de dato, información y conocimiento en su práctica profesional."
+  },
+  {
+    "objectID": "001_intro.html#importancia-de-los-datos-en-la-toma-de-decisiones",
+    "href": "001_intro.html#importancia-de-los-datos-en-la-toma-de-decisiones",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "2. Importancia de los datos en la toma de decisiones",
+    "text": "2. Importancia de los datos en la toma de decisiones\n\nDuración sugerida: 10 minutos\n\n\nRelevancia en Arquitectura\n\nToma de decisiones basadas en evidencia:\n\nPermite diseñar espacios más funcionales y eficientes.\n\nEvita suposiciones que pueden conducir a errores costosos.\n\n\nOptimización de recursos:\n\nUso de datos para calcular costos y tiempos con mayor precisión.\n\nPlaneación urbana y gestión de edificaciones de manera sostenible.\n\n\n\n\nEjemplos del grupo de trabajo\n\nDiseño paramétrico:\n\nUso de datos (clima, topografía, orientación, etc.) para generar diseños adaptados al entorno.\n\n\nBIM (Building Information Modeling):\n\nCentraliza datos de todas las fases del proyecto.\n\nMejora la colaboración y reduce errores en el ciclo de vida de la edificación.\n\n\nDiscusión grupal (3 minutos):\nInvita a los participantes a compartir alguna situación en la que el uso (o falta de uso) de datos haya impactado significativamente el resultado de un proyecto."
+  },
+  {
+    "objectID": "001_intro.html#ciclo-de-vida-de-los-datos",
+    "href": "001_intro.html#ciclo-de-vida-de-los-datos",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "3. Ciclo de vida de los datos",
+    "text": "3. Ciclo de vida de los datos\n\nDuración sugerida: 10 minutos\n\n\nFases del ciclo de vida\n\nCaptura y recolección\n\nLevantamiento de información en campo (encuestas, mediciones, fotos, escaneos 3D).\n\nFuentes digitales (sensores IoT en edificios, bases de datos de municipios).\n\n\nAlmacenamiento\n\nHerramientas y formatos: bases de datos, hojas de cálculo, nubes de almacenamiento.\n\nConsideraciones de seguridad y respaldo.\n\n\nProcesamiento y limpieza\n\nValidación y corrección de datos: detección de valores atípicos o inconsistentes.\n\nFormateo y estandarización para su uso en software de diseño o análisis.\n\n\nAnálisis\n\nHerramientas de estadística, visualización y modelado.\n\nGeneración de información significativa a partir de los datos.\n\n\nDistribución y uso\n\nCompartir resultados con el equipo de proyecto u otros departamentos.\n\nToma de decisiones informadas (definición de lineamientos de diseño, presupuestos, etc.).\n\n\nArchivo o eliminación\n\nDecisión sobre conservar datos a largo plazo (para futuros proyectos) o eliminarlos de forma segura.\n\nLegislación y normas de privacidad (importante en algunos tipos de proyectos).\n\n\n\n\nConsejos prácticos para la recolección de datos\n\nDefinir objetivos claros antes de recolectar datos.\n\nEstandarizar formatos desde el inicio.\n\nFomentar la cultura de la documentación (todo dato debe registrarse de manera consistente).\n\nEjercicio sugerido (3 minutos):\nPide a los participantes que definan qué datos recolectan habitualmente en sus proyectos y en qué fase del ciclo se encuentran más retos."
+  },
+  {
+    "objectID": "001_intro.html#recapitulación-y-cierre",
+    "href": "001_intro.html#recapitulación-y-cierre",
+    "title": "Fundamentos de la recolección de datos para Arquitectura",
+    "section": "Recapitulación y cierre",
+    "text": "Recapitulación y cierre\n\nDuración sugerida: 5 minutos\n\n\nResumen de ideas principales\n\nDiferencia entre dato, información y conocimiento y su utilidad en la práctica arquitectónica.\n\nImportancia de la toma de decisiones basadas en datos, con ejemplos del entorno profesional.\n\nCiclo de vida de los datos y buenas prácticas en cada fase.\n\n\n\nPróximos pasos\n\nInvestigar herramientas que ayuden en el procesamiento y análisis de datos (ej.: software de modelado, hojas de cálculo avanzadas, análisis de datos en BIM).\n\nCrear un protocolo interno para la recolección y almacenamiento de información en proyectos de arquitectura.\n\nBuscar cursos o talleres complementarios que profundicen en el tema de la analítica de datos aplicada a la arquitectura.\n\n\n\nEspacio para preguntas (5 minutos)\n\nAbrir el micrófono a consultas.\nFomentar ejemplos concretos de proyectos de los participantes."
+  }
+]

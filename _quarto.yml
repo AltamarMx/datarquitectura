@@ -1,0 +1,29 @@
+lang: es 
+website:
+  cookie-consent: true
+
+project:
+  type: book  
+  output-dir: docs  
+
+  
+book:
+  title: "Recolección, análisis y visualización de datos"
+  # version: 0.9.1
+  navbar:
+    search: True
+  sidebar:
+    menu: True
+    collapse-level: 1
+    border: true
+    # logo: img/logo_ier.png
+  
+  chapters:
+    - index.qmd 
+    - 001_intro.qmd
+format:
+  html:
+    theme: 
+      light: spacelab
+      dark: slate
+    code-link: true
