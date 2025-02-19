@@ -21,6 +21,7 @@ book:
   chapters:
     - index.qmd 
     - 001_intro.qmd
+    - 002_Analizando_SNII.ipynb
 format:
   html:
     theme: 

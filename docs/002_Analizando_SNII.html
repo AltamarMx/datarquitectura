@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Recolección, análisis y visualización de datos</title>
+<title>3&nbsp; for especialidad in especialidades: – Recolección, análisis y visualización de datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,17 +20,51 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./001_intro.html" rel="next">
+<link href="./001_intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,11 +103,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Recolección, procesamiento y visualización de datos</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./002_Analizando_SNII.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">002_Analizando_SNII.html</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -109,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Recolección, procesamiento y visualización de datos</span></span></a>
   </div>
 </li>
@@ -121,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./002_Analizando_SNII.html" class="sidebar-item-text sidebar-link">
+  <a href="./002_Analizando_SNII.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">002_Analizando_SNII.html</span></span></a>
   </div>
 </li>
@@ -130,13 +167,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Recolección, análisis y visualización de datos</h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">for especialidad in especialidades:</span></h1>
 </div>
 
 
@@ -153,7 +192,463 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Inserte el temario aquí…</p>
+<div id="3a5814f8-475c-4d4c-bb54-08f328dea423" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="3479dacf-d1a6-4a5d-9418-64fd084c92a3" class="cell" data-scrolled="true" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="st">"../data/Investigadores_vigentes_2023.xlsx"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>snii <span class="op">=</span> pd.read_excel(f)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="93a3e0b0-d9f0-42e8-a9f8-17bb5df3efd8" class="cell" data-scrolled="true" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>snii.head()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">CVU</th>
+<th data-quarto-table-cell-role="th">GRADO ACADÉMICO</th>
+<th data-quarto-table-cell-role="th">NOMBRE DEL INVESTIGADOR</th>
+<th data-quarto-table-cell-role="th">NIVEL</th>
+<th data-quarto-table-cell-role="th">EMÉRITO</th>
+<th data-quarto-table-cell-role="th">VIVO?</th>
+<th data-quarto-table-cell-role="th">FECHA DE INICIO DE VIGENCIA</th>
+<th data-quarto-table-cell-role="th">FECHA DE FIN DE VIGENCIA</th>
+<th data-quarto-table-cell-role="th">ÁREA DEL CONOCIMIENTO</th>
+<th data-quarto-table-cell-role="th">DISCIPLINA</th>
+<th data-quarto-table-cell-role="th">SUBDISCIPLINA</th>
+<th data-quarto-table-cell-role="th">ESPECIALIDAD</th>
+<th data-quarto-table-cell-role="th">INSTITUCIÓN DE ADSCRIPCIÓN</th>
+<th data-quarto-table-cell-role="th">DEPENDENCIA DE ADSCRIPCIÓN</th>
+<th data-quarto-table-cell-role="th">ENTIDAD FEDERATIVA DE ADSCRIPCIÓN</th>
+<th data-quarto-table-cell-role="th">PAÍS DE ADSCRIPCIÓN</th>
+<th data-quarto-table-cell-role="th">APOYO ECONÓMICO</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>4</td>
+<td>DR.</td>
+<td>ALONSO SANCHEZ,JORGE</td>
+<td>3</td>
+<td>EMÉRITO</td>
+<td>SI</td>
+<td>2016-01-01 00:00:00</td>
+<td>2099-12-31 00:00:00</td>
+<td>V.- HUMANIDADES.</td>
+<td>OTRAS ESPECIALIDADES EN MATERIA DE ANTROPOLOGIA</td>
+<td>ANTROPOLOGIA SOCIAL</td>
+<td>ANTROPOLOGÍA POLÍTICA</td>
+<td>CENTRO DE INVESTIGACIONES Y ESTUDIOS SUPERIORE...</td>
+<td>OCCIDENTE</td>
+<td>JALISCO</td>
+<td>MÉXICO</td>
+<td>La entrega del estímulo económico está sujeto ...</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>5</td>
+<td>DRA.</td>
+<td>AZAOLA GARRIDO,ELENA</td>
+<td>3</td>
+<td>EMÉRITO</td>
+<td>SI</td>
+<td>2019-01-01 00:00:00</td>
+<td>2100-12-31 00:00:00</td>
+<td>V.- HUMANIDADES.</td>
+<td>ANTROPOLOGIA SOCIAL</td>
+<td>OTROS</td>
+<td>PROBLEMAS SOCIALES, DELINCUENCIA, VIOLENCIA</td>
+<td>CENTRO DE INVESTIGACIONES Y ESTUDIOS SUPERIORE...</td>
+<td>AREA IV ESTADO ORGANIZACION POLITICA SOCIAL Y ...</td>
+<td>CIUDAD DE MÉXICO</td>
+<td>MÉXICO</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>14</td>
+<td>BIOL.</td>
+<td>CALDERON DIAZ BARRIGA,GRACIELA</td>
+<td>3</td>
+<td>EMÉRITO</td>
+<td>SI</td>
+<td>2005-01-02 00:00:00</td>
+<td>2099-12-31 00:00:00</td>
+<td>II.- BIOLOGÍA Y QUÍMICA</td>
+<td>CIENCIAS DE LA VIDA</td>
+<td>BOTANICA</td>
+<td>SISTEMATICA DE PLANTAS VASCULARES</td>
+<td>INSTITUTO DE ECOLOGIA A.C. (INECOL)</td>
+<td>CENTRO REGIONAL DEL BAJIO</td>
+<td>VERACRUZ DE IGNACIO DE LA LLAVE</td>
+<td>MÉXICO</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>15</td>
+<td>DR.</td>
+<td>RZEDOWSKI ROTTER,JERZY</td>
+<td>3</td>
+<td>EMÉRITO</td>
+<td>SI</td>
+<td>1991-07-02 00:00:00</td>
+<td>2099-06-30 00:00:00</td>
+<td>II.- BIOLOGÍA Y QUÍMICA</td>
+<td>CIENCIAS DE LA VIDA</td>
+<td>BOTANICA</td>
+<td>NaN</td>
+<td>INSTITUTO DE ECOLOGIA A.C. (INECOL)</td>
+<td>CENTRO REGIONAL DEL BAJIO</td>
+<td>MICHOACÁN DE OCAMPO</td>
+<td>MÉXICO</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>18</td>
+<td>DR.</td>
+<td>PEREZ ANGON,MIGUEL ANGEL</td>
+<td>3</td>
+<td>NaN</td>
+<td>SI</td>
+<td>2019-01-01 00:00:00</td>
+<td>2028-12-31 00:00:00</td>
+<td>I.- FÍSICO-MATEMÁTICAS Y CIENCIAS DE LA TIERRA</td>
+<td>FISICA DE LAS PARTICULAS NUCLEARES</td>
+<td>FISICA DE PARTICULAS</td>
+<td>FENOMENOLOGIA DE INTERACCIONES ELECTRODEBILES</td>
+<td>CENTRO DE INVESTIGACION Y DE ESTUDIOS AVANZADO...</td>
+<td>DEPARTAMENTO DE FISICA</td>
+<td>CIUDAD DE MÉXICO</td>
+<td>MÉXICO</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="b8fd7a36-76ad-42c8-99bb-bdd37b7548c7" class="cell" data-scrolled="true" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>snii.info()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 41367 entries, 0 to 41366
+Data columns (total 17 columns):
+ #   Column                             Non-Null Count  Dtype 
+---  ------                             --------------  ----- 
+ 0   CVU                                41367 non-null  int64 
+ 1   GRADO ACADÉMICO                    41367 non-null  object
+ 2   NOMBRE DEL INVESTIGADOR            41367 non-null  object
+ 3   NIVEL                              41367 non-null  object
+ 4   EMÉRITO                            607 non-null    object
+ 5   VIVO?                              41367 non-null  object
+ 6   FECHA DE INICIO DE VIGENCIA        41367 non-null  object
+ 7   FECHA DE FIN DE VIGENCIA           41367 non-null  object
+ 8   ÁREA DEL CONOCIMIENTO              41367 non-null  object
+ 9   DISCIPLINA                         41352 non-null  object
+ 10  SUBDISCIPLINA                      38320 non-null  object
+ 11  ESPECIALIDAD                       39425 non-null  object
+ 12  INSTITUCIÓN DE ADSCRIPCIÓN         41367 non-null  object
+ 13  DEPENDENCIA DE ADSCRIPCIÓN         34112 non-null  object
+ 14  ENTIDAD FEDERATIVA DE ADSCRIPCIÓN  41367 non-null  object
+ 15  PAÍS DE ADSCRIPCIÓN                41367 non-null  object
+ 16  APOYO ECONÓMICO                    36 non-null     object
+dtypes: int64(1), object(16)
+memory usage: 5.4+ MB</code></pre>
+</div>
+</div>
+<div id="de02f15d-c841-4d7e-a1d4-50da88ab3714" class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>snii.describe()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">CVU</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">count</td>
+<td>4.136700e+04</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">mean</td>
+<td>2.574473e+05</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">std</td>
+<td>2.325084e+05</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">min</td>
+<td>4.000000e+00</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">25%</td>
+<td>5.296450e+04</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">50%</td>
+<td>2.120800e+05</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">75%</td>
+<td>3.761735e+05</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">max</td>
+<td>1.248275e+06</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="87fd1ce9-bad4-41b9-b2d9-8085f6c34438" class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>snii.columns</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="6">
+<pre><code>Index(['CVU', 'GRADO ACADÉMICO', 'NOMBRE DEL INVESTIGADOR', 'NIVEL', 'EMÉRITO',
+       'VIVO?', 'FECHA DE INICIO DE VIGENCIA', 'FECHA DE FIN DE VIGENCIA',
+       'ÁREA DEL CONOCIMIENTO', 'DISCIPLINA', 'SUBDISCIPLINA', 'ESPECIALIDAD',
+       'INSTITUCIÓN DE ADSCRIPCIÓN', 'DEPENDENCIA DE ADSCRIPCIÓN',
+       'ENTIDAD FEDERATIVA DE ADSCRIPCIÓN', 'PAÍS DE ADSCRIPCIÓN',
+       'APOYO ECONÓMICO'],
+      dtype='object')</code></pre>
+</div>
+</div>
+<div id="2ac63259-d47d-47e4-8b4d-c19673261d90" class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>especialidades <span class="op">=</span> snii.ESPECIALIDAD.unique()</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>especialidades <span class="op">=</span> [<span class="bu">str</span>(especialidad) <span class="cf">for</span> especialidad <span class="kw">in</span> especialidades ]</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co">#     print(type(especialidad))</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>[especialidad <span class="cf">for</span> especialidad <span class="kw">in</span> especialidades <span class="cf">if</span> <span class="st">"arqui"</span>.upper() <span class="kw">in</span> especialidad]</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="7">
+<pre><code>['ARQUITECTURA Y SOCIEDAD',
+ 'ARQUITECTURA BIOCLIMÁTICA Y TECNOLOG. SUSTENTABLES',
+ 'HISTORIA URBANA E HISTORIA DE LA ARQUITECTURA',
+ 'DISEÑO Y CONSERVACIÓN DE ARQUITECTURA DE TIERRA',
+ 'ARQUIT PREHISPÁNICA Y TECNOLOGÍAS PARA SU REGISTRO',
+ 'HISTORIA Y TEORÍA DE LA ARQUITECTURA, URBANISMO Y',
+ 'HIST. DE LA ARQUITECTURA Y ARQ. BIOCLIMÁTICA',
+ 'HISTORIA DE LA ARQUITECTURA Y URBANA',
+ 'ARQUITECTURA DE COMPUTADORAS Y SISTEMAS EMBEBIDOS',
+ 'ICONOGRAFÍA, ARQUITECTURA Y ARTE ESPAÑOL Y NOVOHIS',
+ 'ARQUITECTURA BIOCLIMATICA',
+ 'HISTORIA DE LA ARQUITECTURA',
+ 'ANTROPOLGÍA ARQUITECTÓNICA',
+ 'ARQUITECTURA HISTÓRICA',
+ 'ARQUITECTURA',
+ 'HISTORIA DE LA ARQUITECTURA MEXICANA DEL SIGLO XX',
+ 'ARTES ESCÉNICAS, ARQUITECTURA VIRREINAL Y MÚSICA',
+ 'HISTORIA Y CRÍTICA DE LA ARQUITECTURA',
+ 'CÓMPUTO EVOLUTIVO, DISEÑO DE ARQUITECTURA HARDWARE',
+ 'CRIPTOGRAFÍA, CODIFICACIÓN, ARQUITECTURAS HW/SW',
+ 'ARQUITECTURA DE SOFTWARE',
+ 'TEORÍA DE LA ARQUITECTURA Y LA CIUDAD',
+ 'CONSTRUCCIÓN Y TECNOLOGÍA ARQUITECTÓNICAS',
+ 'HISTORIA Y TEORIA DE LA ARQUITECTURA',
+ 'ARQUITECTURA Y URBANÍSTICA',
+ 'HISTORIA Y TEORIA DE LA ARQUITECTURA EN MEX S. XX',
+ 'HISTORIA DE LA ARQUITECTURA SIGLO XX',
+ 'ARQUITECTURA Y URBANISMO',
+ 'ARQUITECTURA BIOCLIMÁTICA',
+ 'DESARROLLO DE ARQUITECTURA-URBANISMO SUSTENTABLES',
+ 'HISTORIA ARQUITECTURA Y ESCULTURA NOVOHISPANA',
+ 'FILOSOFÍA DE LA ARQUITECTURA',
+ 'ARQUITECTURA Y TECNOLOGÍA CONSTRUCTIVA',
+ 'PATRIMONIO ARQUITECTÓNICO',
+ 'SUSTENTABILIDAD URBANO-ARQUITECTONICA EN PAISES EN',
+ 'ARQUITECTURA, ARTE Y SOCIEDAD VIRREINAL',
+ 'ARQUITECTURA, URBANISMO Y MEDIO AMBIENTE',
+ 'ARQUITECTURA Y PATRIMONIO CULTURAL',
+ 'ARQUITECTURA MOVIMIENTO MODERNO',
+ 'ARQUITECTURA DE COMPUTADORAS DIFUSAS',
+ 'EXPERIENCIA DE LA ARQUITECTURA Y SU REPRESENTACIÓN',
+ 'HISTORIA DE LA ARQUITECTURA Y EL URBANISMO',
+ 'PABELLONES ARQUITECTONICOS',
+ 'ARQUITECTURA DURABLE Y SUSTENTABLE',
+ 'ARQUITECTURA BIOCLIMÁTICA Y SUSTENTABILIDAD',
+ 'ARQUITECTURA DE PAISAJE-HORTICULTURA',
+ 'CONSERVACIÓN DE PATRIMONIO ARQUITECTÓNICO',
+ 'ARQUITECTURA DE TIERRA Y SUSTENTABILIDAD',
+ 'ARQUITECTURA Y CIUDAD DEL TURISMO',
+ 'ANARQUISMOEPISTEMOLGICO',
+ 'ARQUITECTURA RELIGIOSA Y PATRIMONIO EDIFICADO',
+ 'PATRIMONIOARQUITECTONICA',
+ 'PATRIMONIO URBANO E HISTORIA DE LA ARQUITECTURA',
+ 'EDIFICACIÓN SUSTENTABLE: ARQUITECTURA DE TIERRA',
+ 'IMAGINARIOS, TURISMO Y ARQUITECTURA',
+ 'ARQUITECTURA, PAISAJE Y ESPACIO PÚBLICO',
+ 'GESTIÓN Y CONSERVACIÓN PATRIMONIO ARQUITECTÓNICO',
+ 'ARQUITECTURA MEXICANA DEL SIGLO XIX Y VIRREINAL',
+ 'CONSERVACIÓN DEL PATRIMONIO URBANO ARQUITECTÓNICO',
+ 'RESTAURACIÓN Y CONSERVACION ARQUITECTÓNICA,',
+ 'ARQUITECTURA SUSTENTABLE',
+ 'HISTORIA DE LA ARQUITECTURA EN MÉXICO, SIGLO XX',
+ 'VIVIENDA, ARQUITECTURA Y DISEÑO URBANO',
+ 'ARQUITECTURA Y TECNOLGÍA DE COMPUTADORAS',
+ 'ARQUITECTURA, DISEÑO Y URBANISMO',
+ 'HISTORIA DE LA ARQUITECTURA MEXICANA',
+ 'ARQUITECTURA, DISEÑO, URBANISMO',
+ 'CIENCIAS DE LA ARQUITECTURA Y URBANISMO',
+ 'ARQUITECTURA BIOCLIMÁTICA Y SUSTENTABLE',
+ 'MODELADO Y DISEÑO LÓGICO DE ARQUITECTURAS HARDWARE',
+ 'TEORÍA DE LA ARQUITECTURA, CIUDAD Y PATRIMONIO',
+ 'TEORIA DE LA ARQUITECTURA Y EL URBANISMO',
+ 'ARQUITECTURA, CONSERVACIÓN, ÁMBITOS ANTRÓPICOS',
+ 'ARQUITECTURA DE PAISAJE',
+ 'ESPACIO Y TIPOLOGIAS HISTORICO ARQUITECTÓNICO',
+ 'ARQUITECTURA SOSTENIBLE.',
+ 'ARQUITECTA Y URBANISTA',
+ 'HISTORIA DE LAS CIUDADES Y DE LA ARQUITECTURA',
+ 'ARQUITECTURA, PARTICIPACIÓN COMUNITARIA Y DOCENCIA',
+ 'URBANOARQUITECTONICO',
+ 'ARQUITECTURA Y MEDIO AMBIENTE',
+ 'ARQUITECTURA SOSTENIBLE Y EFICIENCIA ENERGÉTICA',
+ 'TEORÍA E HISTORIA DE LA ARQUITECTURA',
+ 'ARQUITECTURA CIUDAD E IMAGINARIOS TECNOLOGICOS',
+ 'ARQUITECTURA Y URBANISMO SUSTENTABLE',
+ 'SOSTENIBILIDAD URBANA Y ARQUITECTÓNICA',
+ 'ARQUITECTUTA',
+ 'ARQUITECTURA MODERNA EN MÉXICO',
+ 'HISTORIA DE LA ARQUITECTURA EN CHIAPAS',
+ 'ARQUITECTURAINTERIOR',
+ 'PROCESOS DE DISEÑO ARQUITECTÓNICO',
+ 'ANALISIS DE CONTEXTOS URBANO-ARQUITECTONICOS',
+ 'INTERIORISMO ARQUITECTONICO',
+ 'MONARQUIA',
+ 'ARQUITECTURA CONTEMPORANEA Y PATRIMONIO EDIFICADO',
+ 'ARQUITECTURAS HETEROGENES Y HPC',
+ 'PATRIMONIO CULTURAL: ARQUITECTURA Y RESTAURACIÓN',
+ 'HISTORIA DE LA ARQUITECTURA Y DISEÑO TEORICO',
+ 'URBANISMO Y ARQUITECTURA',
+ 'ARQUITECTURA SOCIAL COMUNITARIA',
+ 'ARQUITECTURA CONTEMPORANEA; TEORIA DE LA ARQUITECURA; PROYEC',
+ 'COLOR, ARQUITECTURA, MEXICO',
+ 'URBANISMO, ARQUITECTURA, MOVILIDAD']</code></pre>
+</div>
+</div>
+<div id="09670846-3e89-476d-a889-9b02a5c71078" class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>instituciones <span class="op">=</span> snii[<span class="st">"INSTITUCIÓN DE ADSCRIPCIÓN"</span>].unique()</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>[institucion <span class="cf">for</span> institucion <span class="kw">in</span> instituciones <span class="cf">if</span> <span class="st">"guerrero"</span> <span class="kw">in</span> institucion.lower()]</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="8">
+<pre><code>['UNIVERSIDAD AUTONOMA DE GUERRERO',
+ 'COLEGIO SUPERIOR AGROPECUARIO DEL ESTADO DE GUERRERO',
+ 'UNIVERSIDAD INTERCULTURAL DEL ESTADO DE GUERRERO',
+ 'UNIVERSIDAD POLITECNICA DEL ESTADO DE GUERRERO',
+ 'GOBIERNO DEL ESTADO DE GUERRERO']</code></pre>
+</div>
+</div>
+<div id="b309d77c-b39a-4d12-9aa7-be061c16a928" class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>gro <span class="op">=</span> snii[snii[<span class="st">"INSTITUCIÓN DE ADSCRIPCIÓN"</span>] <span class="op">==</span> <span class="st">'UNIVERSIDAD AUTONOMA DE GUERRERO'</span>]</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="2e55f8c0-2b2f-4ee7-8e07-b82e262d690c" class="cell" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>gro[<span class="st">"NIVEL"</span>].value_counts()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="10">
+<pre><code>NIVEL
+1    167
+C     94
+2     19
+3      4
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div id="ad7b04a2-882a-45c1-af4b-760d999d77b5" class="cell" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>gro[<span class="st">"GRADO ACADÉMICO"</span>].value_counts()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="11">
+<pre><code>GRADO ACADÉMICO
+DR.      176
+DRA.     104
+-          2
+MTRO.      2
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div id="4a0aa81a-7b28-4a1b-8510-9d9de6fdb5ca" class="cell" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>gro.groupby([<span class="st">"NIVEL"</span>,<span class="st">"GRADO ACADÉMICO"</span>]).size()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="12">
+<pre><code>NIVEL  GRADO ACADÉMICO
+1      -                    1
+       DR.                107
+       DRA.                58
+       MTRO.                1
+2      DR.                 13
+       DRA.                 6
+3      DR.                  2
+       DRA.                 2
+C      -                    1
+       DR.                 54
+       DRA.                38
+       MTRO.                1
+dtype: int64</code></pre>
+</div>
+</div>
+<div id="d34a36c4-ef62-4a82-a61f-ef24e26ebbe0" class="cell" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>snii.groupby([<span class="st">"NIVEL"</span>,<span class="st">"GRADO ACADÉMICO"</span>]).size()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="13">
+<pre><code>NIVEL  GRADO ACADÉMICO
+1      -                     87
+       BIOL.                  3
+       DR.                13584
+       DRA.                8831
+       Especialidad           1
+       ING.                   5
+       LIC                  130
+       LIC.                  14
+       M. EN C.               2
+       M.EN C.                5
+       MED                    1
+       MED.                  78
+       MTRA.                194
+       MTRO.                241
+2      ARQ.                   1
+       BIOL.                  2
+       DR.                 3668
+       DRA.                1931
+       ING.                   2
+       LIC                   21
+       LIC.                   8
+       MED.                  33
+       MTRA.                 34
+       MTRO.                 58
+3      ARQ.                   1
+       BIOL.                  5
+       DR.                 2203
+       DRA.                 788
+       ING.                   3
+       LIC                    9
+       LIC.                   4
+       MED                    3
+       MED.                  24
+       MTRA.                 10
+       MTRO.                 32
+       Q.F.B.                 1
+C      -                    224
+       ARQ.                   1
+       BIOL.                  1
+       DR.                 4734
+       DRA.                4069
+       LIC                   81
+       LIC.                   1
+       M. EN C.               1
+       M.EN C.                5
+       MED.                  35
+       MTRA.                 90
+       MTRO.                108
+dtype: int64</code></pre>
+</div>
+</div>
 
 
 
@@ -721,11 +1216,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./001_intro.html" class="pagination-link" aria-label="Introducción">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./001_intro.html" class="pagination-link" aria-label="Introducción">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
